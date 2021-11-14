@@ -1,0 +1,190 @@
+{
+    "miscellaneous1":  
+    {
+    "question1" : {
+        "ques" : "print(r'\\')" ,
+        "options" : {"1" : "Error","2" : "\\","3" : "Abraka Dabra","4" : " Of The above" } , 
+        "answer" : "Error",
+        "author" : "Mr.Knight"},
+
+    "question2" : {
+        "ques" : "print('me'*5)" ,
+        "options" : {   "1" : "mememememe","2" : "mmmmm","3" : "eeeee","4" : "emememem" } , 
+        "answer" : "mememememe",
+        "author" : "Mr.Knight"},
+
+    "question3" : {
+        "ques" : " = {1 : 2 , 2 : 3 ,4: 5} \n print(list())" ,
+        "options" : {   "1" : "[1,2,4]","2" : "[(1,2)(2,3)(4,4)]","3" : "[2,3,5]","4" : " of the above" }, 
+        "answer" : "[1,2,4]",
+        "author" : "Mr.Knight"},
+
+    "question4" : {
+        "ques" : "print(r'\\n')" ,
+        "options" : {   "1" : "prints  new line","2" : "prints the string as it is","3" : "prints--> r'\\n'","4" : " Of the above" } , 
+        "answer" : "prints the raw string as it is",
+        "author" : "Mr.Knight"},
+    "question5" : {
+        "ques" : "Data type that is mutable" ,
+        "options" : { "1" : "int","2" : "str","3" : "list","4" : "tuple" } ,
+        "answer" : "list",
+        "author" : "Mr.Knight"},
+
+    "question6" : {
+        "ques" : "print('7' < '11')" ,
+        "options" : {"1" : "True","2" : "False","3" : "error","4" : "false" } , 
+        "answer" : "False",
+        "author" : "Mr.Knight"},
+
+    "question7" : {
+        "ques" : "print(32*4.0 == 34*2.0)" ,
+        "options" : {"1" : "True","2" : "False","3" : "true","4" : "false" } , 
+        "answer" : "False",
+        "author" : "Mr.Knight"},
+
+    "question8" : {
+        "ques" : "a = 1,2,3,4\nprint(a)" ,
+        "options" : {    "1" : "(1,2,3,4)","2" : "1","3" : "1 2 3 4","4" : "error" } , 
+        "answer" : "(1,2,3,4)",
+        "author" : "Mr.Knight"},
+
+    "question9" : {
+        "ques" : "func = lambda x : return x \n print(func(45))" ,
+        "options" : {    "1" : "45","2" : "45.0","3" : "0","4" : "SyntaxError" } , 
+        "answer" : "SyntaxError",
+        "author" : "Mr.Knight"},
+
+    "question10" : {
+        "ques" : "(lambda x: (x + 5) * 5/2 )(3)" ,
+        "options" : {  "1" : "20","2" : "SyntaxError","3" : "0","4" : "20.0" } , 
+        "answer" : "20.0",
+        "author" : "Mr.Knight"}
+    },
+
+    "regular_expression2" : {
+        "question1" : {
+            "ques" : "What will this return\n\n re.search('.','ayan',re.I).group() ?",
+            "options" : {"1" : "a","2" : "y","3" : "aynn","4" : "n"},
+            "answer":"a",
+            "author" : "Mr.Knight"},
+        "question2" : {
+            "ques" : "What would  regular expression for  single backslah look like?",
+            "options" : {"1" : "||||","2" : "|||","3" : "||","4" : "|"},
+            "answer":"||||",
+            "author" : "Mr.Knight"},
+        "question3" : {
+            "ques" : "What is the special character that matches zero or more characters?",
+            "options" : {"1" : "+","2" : "*","3" : "?","4" : "^"},
+            "answer":"*",
+            "author" : "Mr.Knight"},
+        "question4" : {
+            "ques" : "Which of the following matches any space, tab, or newline?",
+            "options" : {"1" : "\\s","2" : "\\d","3" : "\\w","4" : "."},
+            "answer":"\\s",
+            "author" : "Mr.Kight"},
+        "question5" : {
+            "ques" : "How do you match a string appearing at the beginning of a line.",
+            "options" : {"1" : "^string","2" : "$string","3" : "#string","4" : "string"},
+            "answer":"^string",
+            "author" : "Mr.Knight"},
+        "question6" : {
+            "ques" : "What does the regular expression [0-9] match?",
+            "options" : {"1" : "0,-,and 9","2" : "all digits between 0 and 9, including 0 & 9","3" : "all digits between 0 and 9 except 9","4" : "all digits between 0 and 9 except 0"},
+            "answer":"all digits between 0 and 9, including 0 & 9",
+            "author" : "Mr.Knight"},
+        "question7" : {
+            "ques" : "What regular expression matches knight or chess",
+            "options" : {"1" : "'knight|chess'","2" : "'knight| chess'","3" : "'knight | chess'","4" : "' knight |chess '"},
+            "answer":"",
+            "author" : "Mr.Knight"},
+        "question8" : {
+            "ques" : "What do we put after a character to match strings where that character appears 3 or 5 times in sequence?",
+            "options" : {"1" : "{3,5}","2" : "{3-5}","3" : "[3-5]","4" : "(3,5)"},
+            "answer":"{3,5}",
+            "author" : "Mr.Knight"},
+        "question9" : {
+            "ques" : "What flag do we use to get case insensitive matching ?",
+            "options" : {"1" : "re.I","2" : "re.A","3" : "re.X","4" : "re.U"},
+            "answer":"re.I",
+            "author" : "Mr.Knight"},
+        "question10" : {
+            "ques" : "What does regEx 'q.*?z' represent for string 'quizzler'",
+            "options" : {"1" : "quiz","2" : "quizz","3" : "quizzler","4" : "qui"},
+            "answer":"quiz",
+            "author" : "Mr.Knight"}
+    },
+
+
+    "files_and_strings3" : {
+        "question1" : {
+            "ques" : "Given the file dog_breeds.txt, which of the following is the correct way to open the file for reading as a text file?",
+            "options" : {"1":"open('dog_breeds.txt', 'r')","2":"open('dog_breeds.txt', 'w')","3":"open('dog_breeds.txt', 'rb')","4":"open('dog_breeds.txt', 'wb')"},
+            "answer":"open('dog_breeds.txt', 'r')",
+            "author" : "RealPython"
+        },
+        "question2" : {
+            "ques" : "Given the file jack_russell.png, which of the following is the correct way to open the file for reading as a buffered binary file?",
+            "options" : {"1":"open('jack_russell.png', 'rb')","2":"open('jack_russell.png', 'r')","3":"open('jack_russell.png')","4":"open('jack_russell.png', 'wb')"},
+            "answer":"open('jack_russell.png', 'rb')",
+            "author" : "RealPython"
+        },
+        "question3" : {
+            "ques" : "Whenever possible, what is the recommended way to ensure that a file object is properly closed after usage?",
+            "options" : {"1":"By using the with statement","2":"By using the try/finally block","3":"Making sure that you use the .close() method before the end of the script","4":"It doesn’t matter"},
+            "answer":"By using the with statement",
+            "author" : "RealPython"
+        },
+        "question4" : {
+            "ques" : "When reading a file using the file object, what method is best for reading the entire file into a single string?",
+            "options" : {"1":".readline()","2":".read_file_to_str()","3":".read()","4":".readlines()"},
+            "answer":".read()",
+            "author" : "RealPython"
+        },
+        "question5" : {
+            "ques" : "What is the meaning of 'r' when used as an argument with open()",
+            "options" : {"1":"open for reading","2":"open for writing","3":"binary mode","4":"text mode"},
+            "answer":"open for reading",
+            "author" : "Mr.Knight"
+        },
+        "question6" : {
+            "ques" : "Python string are",
+            "options" : {"1":"immutable objects","2":"changeable","3":"mutable","4":"char arrays"},
+            "answer":"immutable objects",
+            "author" : "RealPyton"
+        },
+        "question7" : {
+            "ques" : "The minsplit parameter to split() specifies the minimum number of splits to make to the input string.",
+            "options" : {"1":"True","2":"False","3":" ","4":" "},
+            "answer":"False",
+            "author" : "RealPython"
+        },
+        "question8" : {
+            "ques" : "Which of the following would separate a string input_string on the first 2 occurences of the letter “e”?",
+            "options" : {"1":"input_string.split('e', 2)","2":"'e'.split(input_string, maxsplit=2)","3":"'e'.split(input_string, 2)","4":""},
+            "answer":"input_string.split('e', 2)",
+            "author" : "RealPython"
+        },
+        "question9" : {
+            "ques" : "If you want to transform a list of strings input_list into a single string with a comma between each item, which of the following would you give as the input to join()?",
+            "options" : {"1":"input_list","2":"','","3":"string","4":"str"},
+            "answer":"input_list",
+            "author" : "RealPython"
+        },
+        "question10" : {
+            "ques" : "Which of the following mathematical operators can be used to concatenate strings:",
+            "options" : {"1":"+","2":"-","3":"/","4":"**"},
+            "answer":"+",
+            "author" : "RealPython"
+        }
+    },
+
+    "type4" : {
+        "question1" : {
+            "ques" : " ",
+            "options" : {"1":" ","2":" ","3":" ","4":" "},
+            "answer":" ",
+            "author" : " "
+
+        }
+    }
+}
